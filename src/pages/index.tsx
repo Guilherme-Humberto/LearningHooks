@@ -1,6 +1,4 @@
 // O que é um Hook? Um Hook é uma função especial que te permite utilizar recursos do React.
-
-import { fontsize } from '*.jpg';
 import React, { useState, useEffect, useContext, createContext } from 'react';
 import { Container } from '../styles/pages/Home'
 

@@ -1,5 +1,3 @@
-import styled from "styled-components";
-
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
@@ -10,9 +8,16 @@ export default createGlobalStyle`
     box-sizing: border-box
   }
 
-  body {
-    background: ${props => props.theme.colors.background};
-    color: ${props => props.theme.colors.text};
-    font: 400 16px Roboto, sans-serif;
+  h1, h2, h3, p {
+    font-family: Roboto
   }
+
+  button {
+    padding: 10px;
+    border: none;
+    font-size: 15;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
 `
